@@ -6,12 +6,15 @@
 body {
     width: 100%;
     height: 100%;
-    padding-top: 16rem;
+    padding-top: 8rem;
     background-color: rgb(250, 241, 230);
 }
 
 
 #boxMaior {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     border-color: rgb(201, 104, 19);
     box-shadow: rgb(204, 198, 190) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
